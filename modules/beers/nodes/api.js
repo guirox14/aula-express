@@ -12,7 +12,7 @@ router.post('/', function(req, res, next) {
   controller.create(req, res);
 });
 
-router.update('/:id', function(req, res, next) {
+router.put('/:id', function(req, res, next) {
   controller.update(req, res);
 });
 
