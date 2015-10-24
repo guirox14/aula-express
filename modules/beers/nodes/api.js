@@ -8,4 +8,8 @@ router.get('/', function(req, res, next) {
   controller.retrive(req, res);
 });
 
+router.post('/', function(req, res, next) {
+  controller.create(req, res);
+});
+
 module.exports = router;
