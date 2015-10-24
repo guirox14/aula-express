@@ -16,4 +16,9 @@ router.put('/:id', function(req, res, next) {
   controller.update(req, res);
 });
 
+router.get('/:id', function(req, res, next) {
+  controller.get(req, res);
+});
+
+
 module.exports = router;
